@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px auto; 
+}
+
+.home {
+    font-size: 14px;
+    color: #e63946;
+}
+
+span{
+    color: #000000;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.info {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+
+p {
+    font-size: 16px;
+    margin: 20px;
+    text-align: justify;
+}
+
+a {
+    color: #e63946;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.subrayado-rojo {
+    border-bottom: 2px solid #e63946; 
+    margin-bottom: 0;
+}
+
+.imagen {
+    padding: 0px;
+    width: 98%;
+    display: block;
+    margin: 0px auto 2px auto;
+    border-bottom: 5px solid #d32f2f; 
+}
+
+.rojo-light {
+    border-bottom: 1px solid rgba(255, 0, 21, 0.257); 
+    padding-bottom: 2px;
+}
+
+.frase-transparente {
+    color: rgba(0, 0, 0, 0.4); /* negro al 60% */
+}
+
+
