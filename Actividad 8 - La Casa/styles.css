@@ -1,0 +1,81 @@
+.roof{
+                width: 0;
+                height: 0;
+                margin: 0 auto;
+                border-left: 200px solid transparent;
+                border-top: 50px solid transparent;
+                border-right: 190px solid transparent;
+                border-bottom: 200px solid rgb(245, 152, 12);
+            }
+
+.chimney{
+            z-index: inherit;
+            border-radius: 50;
+            width: 25px;
+            border-right: 30px solid transparent;
+            height: 80px;
+            background-color: brown;
+            position: relative;
+            left: 650px;
+            top: -130px;
+            right: 50px;
+        }
+.wall{
+            width: 390px;
+            height: 300px;
+            background-color: rgb(247, 217, 203);
+            margin: 0 auto;
+            border: 1px solid black;
+            position: relative;
+            top: -80px;
+        }
+.window01{
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            background-color: rgb(135, 206, 235);
+            border: 2px transparent black;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+.window02{
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            background-color: rgb(135, 206, 235);
+            border: 2px transparent black;
+            position: relative;
+            top: -30px;
+            left: 270px;
+        }
+.door{
+            z-index: 90;
+            width: 80px;
+            border-radius: 30px 30px 0px 0px;
+            height: 120px;
+            background-color: rgb(139, 69, 19);
+            border: 2px transparent black;
+            position: relative;
+            top: 23px;
+            left: 160px;
+        }
+.decor{
+            width: 390px;
+            height: 60px;
+            background-color: gray;
+            border: 2px transparent black;
+            position: relative;
+            top: -40px;
+            left: 0px;
+        }
+
+.grass{
+            width: 2000px;
+            height: 10px;
+            background-color: green;
+            border: 2px transparent black;
+            position: relative;
+            top: -85px;
+            left: px;
+        }
