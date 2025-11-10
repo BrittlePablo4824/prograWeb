@@ -43,7 +43,11 @@ echo '</div>';
     <title>Login simple</title>
 </head>
 <body>
-    <h2>Iniciar sesión</h2>
+    El Usuario correcto es: admin<br> 
+        
+    La contraseña correcta es: 12345<br> 
+        
+    <br><h2>Iniciar sesión</h2>
     <form method="post">
         Usuario: <input type="text" name="usuario"><br><br>
         Contraseña: <input type="password" name="clave"><br><br>
@@ -55,3 +59,4 @@ echo '</div>';
     <p style="color:red;"><?php echo $error; ?></p>
 </body>
 </html>
+
