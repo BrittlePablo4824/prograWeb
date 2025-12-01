@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Usuario</title>
+</head>
+<body>
+
+<h2>Crear cuenta</h2>
+
+<form action="/proyecto/backend/register.php" method="POST"> <!-- Ésto ayuda a enviar los datos de forma segura -->
+    
+    <label>Nombre de Usuario:</label><br>
+    <input type="text" name="nombre" required><br><br>
+
+    <label>Correo Electrónico:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Contraseña:</label><br>
+    <input type="password" name="password" required><br><br>
+
+    <button type="submit">Registrarme</button>
+</form>
+
+</body>
+</html>

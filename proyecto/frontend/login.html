@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+
+<h2>Iniciar Sesión</h2>
+
+<form action="http://localhost/proyecto/backend/login.php" method="POST">
+
+    <!-- Aquí el Usuario colocará su Email -->
+    <label>Correo Electrónico:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <!-- Aquí el Usuario colocará su Contraseña -->
+    <label>Contraseña:</label><br>
+    <input type="password" name="password" required><br><br>
+
+    <button type="submit">Entrar</button>
+
+   <a href="register.html">
+    <button type="button">Crear cuenta</button>
+</a>
+<br><br>
+
+    <!-- ⭐ Botón para ir a recuperación -->
+    <a href="/proyecto/frontend/password/recover_password.php">
+        ¿Olvidaste tu contraseña?
+    </a>
+
+
+</form>
+
+</body>
+</html>
